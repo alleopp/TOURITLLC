@@ -54,3 +54,10 @@
   });
 
 })(jQuery); // End of use strict
+
+var app = new Vue({
+  el: '#app2',
+  data: {
+    email: ''
+  }
+})
