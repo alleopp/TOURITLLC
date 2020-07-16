@@ -19,7 +19,7 @@ a {
 #wrapper {
   display: flex;
   #content-wrapper {
-    background-color: $gray-100;
+    background-color: $gray-300;
     width: 100%;
     overflow-x: hidden;
     #content {
@@ -57,4 +57,21 @@ a {
   i {
     font-weight: 800;
   }
+}
+
+.img-thumbnail {
+  max-width:50%;
+  max-height:50%;
+}
+
+#carouselContainer {
+  max-width:50%;
+  max-height:100%;
+  float:left;
+}
+
+#locationInfoContainer {
+  max-width:50%;
+  max-height:100%;
+  float:right;
 }

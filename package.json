@@ -1,56 +1,75 @@
 {
-    "title": "SB Admin 2",
-    "name": "startbootstrap-sb-admin-2",
-    "version": "4.1.0",
-    "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+  "name": "startbootstrap-sb-admin-2",
+  "version": "4.1.0",
+  "private": true,
+  "description": "An open source Bootstrap 4 admin theme.",
+  "author": {
+    "name": "Start Bootstrap"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.12.0",
+    "bootstrap": "4.4.1",
+    "bootstrap-vue": "^2.15.0",
+    "chart.js": "2.9.3",
+    "core-js": "^3.6.5",
+    "datatables.net-bs4": "1.10.20",
+    "jquery": "^3.5.1",
+    "jquery.easing": "^1.4.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "7.0.1",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.9",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
     },
-    "description": "An open source Bootstrap 4 admin theme.",
-    "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template",
-        "admin",
-        "app"
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/sb-admin-2",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues",
-        "email": "feedback@startbootstrap.com"
+    "parserOptions": {
+      "parser": "babel-eslint"
     },
-    "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-free": "5.12.0",
-        "bootstrap": "4.4.1",
-        "bootstrap-vue": "^2.15.0",
-        "chart.js": "2.9.3",
-        "datatables.net-bs4": "1.10.20",
-        "jquery": "^3.5.1",
-        "jquery.easing": "^1.4.1",
-        "vue": "^2.6.11"
-    },
-    "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
-        "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.1",
-        "gulp-clean-css": "4.2.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "2.0.0",
-        "gulp-sass": "4.0.2",
-        "gulp-uglify": "3.0.2",
-        "merge-stream": "2.0.0"
-    }
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "startbootstrap-sb-admin-2@4.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alleopp/TOURITLLC"
+  },
+  "title": "TOURITLLC"
 }
